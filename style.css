@@ -160,3 +160,39 @@ footer {
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+nav a:hover {
+  color: #ffc107;
+}
+
+.btn-yellow:hover {
+  background: #e0a800;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #0b3c5d;
+}
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-right {
+    margin-top: 30px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+}
